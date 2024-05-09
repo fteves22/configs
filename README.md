@@ -15,7 +15,7 @@ All environment configs for easy setup on a new machine.
  ├── colors/
  └── plugged/
 ```
-`$ mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged`
+`mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged`
 
 3. Copy file contents of `vimrc` from this repository into the new `.vimrc` file.
 
@@ -27,8 +27,22 @@ All environment configs for easy setup on a new machine.
 
 5. Open Vim (or any vim file) and install plugins using `:PlugInstall`.
 
-### Colorschemes
+### Color Schemes
 
 **Gotham:** https://github.com/rafi/awesome-vim-colorschemes
 
 **Everforest:** https://github.com/sainnhe/everforest
+
+## IntelliJ IDEA Community
+
+1. Download the Theme plugin you want.
+
+2. Open IntelliJ and open Settings using `⌘,`.
+
+3. In Plugins, click `Intall Plugin from Disk...` and select the Theme plugin file.
+
+4. Select `OK` to apply and save your changes.
+
+### Themes
+
+**Nord:** https://plugins.jetbrains.com/plugin/10321-nord
